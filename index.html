@@ -8,18 +8,24 @@
         <title>Countries</title>
     </head>
     <body>
-        <header>
-            <h1>Where in the world?</h1>
+        <header class="header">
+            <h1 class="header__title">Where in the world?</h1>
 
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#new">New</a></li>
-                    <li><a href="#popular">Popular</a></li>
-                    <li><a href="#trending">Trending</a></li>
-                    <li><a href="#categories">Categories</a></li>
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#new">New</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#popular">Popular</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#trending">Trending</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#categories">Categories</a>
+                    </li>
                 </ul>
-                <button><img src="assets/imgs/moon.png" height="20" />Dark Mode</button>
+
+                <button class="button-theme nav__button-theme">
+                    <img class="buttom-theme__img" src="assets/imgs/moon.png" height="20" />
+                    <span class="button-theme__text">Dark Mode</span>
+                </button>
             </nav>
         </header>
     </body>
