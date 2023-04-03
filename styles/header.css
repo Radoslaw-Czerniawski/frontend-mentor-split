@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 30px 50px;
     box-shadow: 0px 1px 8px -4px var(--dark-gray);
 }
 
@@ -11,13 +11,25 @@
     font-size: 24px;
 }
 
-.nav {
+.header__button-theme {
     display: flex;
-    gap: 20px;
+    height: 20px;
+
+    gap: 10px;
+    font-size: 16px;
+    align-items: center;
+    border: none;
+    background-color: white;
 }
 
 .nav__list {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.nav__link {
+    color: var(--very-dark-blue-text);
+    text-decoration: none;
+    font-weight: 600;
 }
