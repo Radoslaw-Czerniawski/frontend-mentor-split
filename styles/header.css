@@ -12,14 +12,19 @@
 }
 
 .header__button-theme {
-    display: flex;
-    height: 20px;
-
-    gap: 10px;
     font-size: 16px;
+
+    display: flex;
     align-items: center;
+    gap: 10px;
     border: none;
     background-color: white;
+    cursor: pointer;
+    transition: transform 100ms;
+}
+
+.header__button-theme:hover {
+    transform: scale(1.05);
 }
 
 .nav__list {
