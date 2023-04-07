@@ -28,3 +28,21 @@
     font-weight: 800;
     margin-left: 24px;
 }
+
+.card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-left: 24px;
+}
+
+.card__list-item {
+    display: flex;
+    gap: 5px;
+}
+
+.card__list-text {
+    font-weight: 400;
+}
